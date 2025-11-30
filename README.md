@@ -33,7 +33,11 @@ La seguridad ha sido una prioridad en el diseño:
 ### Hardware
 *   **MCU**: ESP32-C3 (Lolin C3 Mini)
 *   **Transceptor**: Texas Instruments CC1101
+*   **Custom PCB**: Placa portadora diseñada a medida para interconectar el MCU y el módulo RF, asegurando robustez mecánica y estabilidad eléctrica.
 *   **Protocolo**: OOK/ASK Modulation
+
+![Final Assembly](images/final_assembly.png)
+*Vista del ensamblaje final con la PCB personalizada.*
 
 ### Stack de Software
 *   **Framework**: Arduino sobre PlatformIO
