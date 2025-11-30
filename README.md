@@ -11,7 +11,7 @@ El sistema actúa como un puente bidireccional:
 2.  **Procesamiento**: Un ESP32 procesa la lógica, verifica permisos y gestiona la seguridad.
 3.  **Transmisión RF**: Un módulo CC1101 emula las señales de los mandos originales para actuar sobre los dispositivos físicos.
 
-## ✨ Funcionalidades Implementadas
+## 📝 Funcionalidades Implementadas
 
 ### 1. Control Multi-Frecuencia
 Gracias a la librería `RadioLib` y el módulo CC1101, el sistema es capaz de conmutar dinámicamente entre frecuencias:
@@ -44,6 +44,3 @@ La seguridad ha sido una prioridad en el diseño:
 ## 🚀 Despliegue
 
 El proyecto está diseñado para ser compilado y subido mediante **PlatformIO**. La configuración sensible (Tokens, Claves WiFi iniciales) se gestiona a través de un archivo `secret.h` (no incluido en el repositorio por seguridad), permitiendo que el código base sea completamente agnóstico a las credenciales del usuario final.
-
----
-*Proyecto desarrollado con fines educativos y de automatización del hogar.*
